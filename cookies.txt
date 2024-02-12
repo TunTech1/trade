@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+stocklypacificrealty.com	TRUE	/	FALSE	1999999999	CameFrom	deleted
+stocklypacificrealty.com	TRUE	/	FALSE	1999999999	PHPSESSID	c92b2df64ce2247391485b95124079ee
+.vecteezy.com	TRUE	/	FALSE	1999999999	__cf_bm	uZ8Z5MGErwsY12uJFSTGpv1av6gDfGVt4cErUZTRZiE-1707079754-1-AcxDNiTwh0yx4rG66YAwi3ez1qCSa0TxGZvguB/IfS4BefsYGQUy00RouRBS4rSBp2DK7UTDJv+HvB1hBpZt9Vs=
+static.vecteezy.com	TRUE	/	FALSE	1999999999	SameSite	None
+

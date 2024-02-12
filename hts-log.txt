@@ -1,0 +1,35 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 04 Feb 2024 21:47:40 at https://stocklypacificrealty.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://stocklypacificrealty.com/ -O1 "C:\Users\TUNTECH\Desktop\trade\trading site" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+21:54:31	Warning: 	Retry after error -4 (Incorrect length (822 Bytes, 3230 expected)) at link https://stocklypacificrealty.com/?a=cust&page=about (from https://stocklypacificrealty.com/)
+21:54:56	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://code.tidio.co:443/tnmesqwtp1l0zrlmoibqlg3mxb5sgpyf.js (from https://stocklypacificrealty.com/)
+21:54:57	Warning: 	Retry after error -2 (Receive Time Out) at link https://stocklypacificrealty.com/img/in-slide-img-2.png (from https://stocklypacificrealty.com/)
+21:54:58	Warning: 	Retry after error -2 (Receive Time Out) at link https://stocklypacificrealty.com/img/in-slide-img-1.png (from https://stocklypacificrealty.com/)
+21:54:59	Warning: 	Retry after error -2 (Receive Time Out) at link https://stocklypacificrealty.com/img/in-avo-3-decor-1.jpg (from https://stocklypacificrealty.com/)
+21:55:00	Warning: 	Retry after error -2 (Receive Time Out) at link https://stocklypacificrealty.com/stock.mp4 (from https://stocklypacificrealty.com/)
+22:02:07	Warning: 	file not stored in cache due to bogus state (broken size, expected 5807042 got 3899392): https://stocklypacificrealty.com/img/in-slide-img-1.png
+22:02:07	Warning: 	Retry after error -4 (Incorrect length (573440 Bytes, 19765498 expected)) at link https://stocklypacificrealty.com/stock.mp4?autoplay=1&playsinline=1 (from https://stocklypacificrealty.com/)
+22:03:23	Warning: 	file not stored in cache due to bogus state (broken size, expected 12002719 got 5652480): https://stocklypacificrealty.com/img/in-slide-img-2.png
+22:03:24	Warning: 	Retry after error -4 (Incorrect length (212476 Bytes, 731122 expected)) at link https://stocklypacificrealty.com/img/in-slide-bg.webp (from https://stocklypacificrealty.com/css/style.css)
+22:06:55	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://code.tidio.co:443/tnmesqwtp1l0zrlmoibqlg3mxb5sgpyf.js (from https://stocklypacificrealty.com/)
+22:06:55	Warning: 	Retry after error -4 (Incorrect length (5652480 Bytes, 12002719 expected)) at link https://stocklypacificrealty.com/img/in-slide-img-2.png (from https://stocklypacificrealty.com/)
+22:06:55	Warning: 	Retry after error -4 (Incorrect length (3899392 Bytes, 5807042 expected)) at link https://stocklypacificrealty.com/img/in-slide-img-1.png (from https://stocklypacificrealty.com/)
+22:06:55	Warning: 	Retry after error -2 (Receive Time Out) at link https://stocklypacificrealty.com/img/in-avo-3-decor-1.jpg (from https://stocklypacificrealty.com/)
+22:07:30	Warning: 	Retry after error -2 (Receive Time Out) at link https://stocklypacificrealty.com/stock.mp4 (from https://stocklypacificrealty.com/)
+22:08:55	Warning: 	Retry after error -2 (Receive Time Out) at link https://stocklypacificrealty.com/stock.mp4?autoplay=1&playsinline=1 (from https://stocklypacificrealty.com/)
+22:11:16	Warning: 	Retry after error -2 (Receive Time Out) at link https://stocklypacificrealty.com/img/in-slide-bg.webp (from https://stocklypacificrealty.com/css/style.css)
+22:12:44	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://stocklypacificrealty.com/assets/img/page-header-bg.svg (from https://stocklypacificrealty.com/?a=forgot_password)
+22:12:58	Error: 	"Receive Time Out" (-2) after 2 retries at link https://code.tidio.co:443/tnmesqwtp1l0zrlmoibqlg3mxb5sgpyf.js (from https://stocklypacificrealty.com/)
+22:17:18	Warning: 	file not stored in cache due to bogus state (broken size, expected 19765498 got 4341760): https://stocklypacificrealty.com/stock.mp4?autoplay=1&playsinline=1
+22:24:38	Warning: 	file not stored in cache due to bogus state (broken size, expected 19765498 got 10845770): https://stocklypacificrealty.com/stock.mp4
+22:24:38	Error: 	"Incorrect length (10845770 Bytes, 19765498 expected)" (-4) after 2 retries at link https://stocklypacificrealty.com/stock.mp4 (from https://stocklypacificrealty.com/)
+22:24:38	Error: 	"Incorrect length (4341760 Bytes, 19765498 expected)" (-4) after 2 retries at link https://stocklypacificrealty.com/stock.mp4?autoplay=1&playsinline=1 (from https://stocklypacificrealty.com/)
+22:24:38	Error: 	"Not Found" (404) at link https://stocklypacificrealty.com/assets/img/page-header-bg.svg (from https://stocklypacificrealty.com/?a=forgot_password)
+
+HTTrack Website Copier/3.49-2 mirror complete in 36 minutes 58 seconds : 87 links scanned, 66 files written (26736056 bytes overall) [41177692 bytes received at 18565 bytes/sec], 1261278 bytes transferred using HTTP compression in 29 files, ratio 37%, 1.2 requests per connection
+(4 errors, 20 warnings, 0 messages)

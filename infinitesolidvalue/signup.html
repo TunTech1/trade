@@ -1,0 +1,274 @@
+
+<!doctype html>
+<html lang="en">
+
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Start growing your passive income today. Invest from as low as 100 EUR in various instruments.">
+    <meta name="keywords" content="growing, passive, income, Invest, instruments">
+    <meta name="author" content="stock">
+    <meta name="theme-color" content="#DF4478">
+    <!-- critical preload -->
+    <link rel="preload" href="js/vendors/bootstrap.bundle.min.js" as="script">
+    <link rel="preload" href="css/style.css" as="style">
+    <!-- icon preload -->
+    <link rel="preload" href="fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- font preload -->
+    <link rel="preload" href="fonts/dm-sans-v11-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/dm-sans-v11-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/val.jpg" type="image/x-icon">
+    <!-- Touch icon -->
+    <link rel="apple-touch-icon-precomposed" href="img/val.jpg">
+    <title>Infinitesolidvalue.com | Register</title>
+</head>
+
+
+<script language=javascript>
+    function checkform() {
+        if (document.regform.fullname.value == '') {
+            alert("Please enter your full name!");
+            document.regform.fullname.focus();
+            return false;
+        }
+
+
+        if (document.regform.username.value == '') {
+            alert("Please enter your username!");
+            document.regform.username.focus();
+            return false;
+        }
+        if (!document.regform.username.value.match(/^[A-Za-z0-9_\-]+$/)) {
+            alert("For username you should use English letters and digits only!");
+            document.regform.username.focus();
+            return false;
+        }
+        if (document.regform.password.value == '') {
+            alert("Please enter your password!");
+            document.regform.password.focus();
+            return false;
+        }
+        if (document.regform.password.value != document.regform.password2.value) {
+            alert("Please check your password!");
+            document.regform.password2.focus();
+            return false;
+        }
+
+
+        if (document.regform.email.value == '') {
+            alert("Please enter your e-mail address!");
+            document.regform.email.focus();
+            return false;
+        }
+        if (document.regform.email.value != document.regform.email1.value) {
+            alert("Please Retype your e-mail! - Check Capitalization");
+            document.regform.email.focus();
+            return false;
+        }
+
+        for (i in document.regform.elements) {
+            f = document.regform.elements[i];
+            if (f.name && f.name.match(/^pay_account/)) {
+                if (f.value == '') continue;
+                var notice = f.getAttribute('data-validate-notice');
+                var invalid = 0;
+                if (f.getAttribute('data-validate') == 'regexp') {
+                    var re = new RegExp(f.getAttribute('data-validate-regexp'));
+                    if (!f.value.match(re)) {
+                        invalid = 1;
+                    }
+                } else if (f.getAttribute('data-validate') == 'email') {
+                    var re = /^[^\@]+\@[^\@]+\.\w{2,4}$/;
+                    if (!f.value.match(re)) {
+                        invalid = 1;
+                    }
+                }
+                if (invalid) {
+                    alert('Invalid account format. Expected ' + notice);
+                    f.focus();
+                    return false;
+                }
+            }
+        }
+
+        if (document.regform.agree.checked == false) {
+            alert("You have to agree with the Terms and Conditions!");
+            return false;
+        }
+
+        return true;
+    }
+
+    function IsNumeric(sText) {
+        var ValidChars = "0123456789";
+        var IsNumber = true;
+        var Char;
+        if (sText == '') return false;
+        for (i = 0; i < sText.length && IsNumber == true; i++) {
+            Char = sText.charAt(i);
+            if (ValidChars.indexOf(Char) == -1) {
+                IsNumber = false;
+            }
+        }
+        return IsNumber;
+    }
+</script>
+
+
+
+<body>
+    
+    
+    <style>
+
+    .form-field{
+        padding-bottom:5px;
+    }
+    
+    
+    </style>
+    
+    
+    
+    
+    <!-- page loader begin -->
+    <div class="page-loader w-100 h-100 bg-white d-flex justify-content-center align-items-center position-fixed overflow-hidden">
+        <div class="spinner-grow spinner-grow-sm text-primary"></div>
+        <div class="spinner-grow spinner-grow-sm text-primary"></div>
+        <div class="spinner-grow spinner-grow-sm text-primary"></div>
+    </div>
+    <!-- page loader end -->
+    <main>
+    <!-- section content begin -->
+    <section>
+        <div class="container-fluid overflow-hidden">
+            <div class="row vh-100">
+               
+               
+                    <div class="row justify-content-center">
+                        <div class="col-md-4 col-lg-4">
+                            <div class="text-center">
+                                <a class="navbar-brand" href="index.html">
+                                    <img src="img/soli.png" alt="logo" width="200px" class="d-inline-block">
+                                </a>
+                                <p class="lead text-muted mt-1 mb-3">Sign up for account</p>
+                                
+                     <form method=post onsubmit="return checkform()" name="regform"><input type="hidden" name="form_id" value="17070796909654"><input type="hidden" name="form_token" value="f7f544aa7e78457715ec53a3fb19847d">
+<input type=hidden name=a value="signup">
+<input type=hidden name=action value="signup">
+<div class="form-results"></div>
+		<div class="form-group">
+		<div class="form-field form-m-bttm" style="padding-bottom: 5px;">
+<input type=text name=fullname value='' class="form-control" size=30 placeholder="Fullname *">
+</div>
+	</div>
+<div class="form-group">
+	<div class="form-field">
+<input type=text name=username value='' class="form-control" size=30 placeholder="Username *">
+</div>
+	</div>
+<div class="form-group">
+	<div class="form-field">
+<input type=password name=password value='' class="form-control" size=30 placeholder="Password *">
+</div>
+	</div>
+<div class="form-group">
+	<div class="form-field">
+<input type=password name=password2 value='' class="form-control" size=30 placeholder="Confirm  Password *">
+</div>
+	</div>
+<div class="form-group">
+	<div class="form-field">
+<!--<input type=text class="form-control" size=30 name="pay_account[1000][Wallet Address:]" value="" placeholder=" USDT (Trc 20) Wallet Address: *">-->
+</div>
+	</div>
+<div class="form-group">
+	<div class="form-field">
+<input type=text name=email value='' class="form-control" size=30 placeholder="Your E-mail Address *">
+</div>
+	</div>
+<div class="form-group">
+	<div class="form-field">
+<input type=text name=email1 value='' class="form-control" size=30 placeholder="Retype Your E-mail *">
+</div>
+	</div>
+<div class="form-group">
+	<div class="form-field">
+<input type=text name=sq value='' class="form-control" size=30 placeholder="Secret question *">
+</div>
+	</div>
+<div class="form-group">
+	<div class="form-field">
+<input type=text name=sa value='' class="form-control" size=30 placeholder="Secret answer *">
+</div>
+	</div>
+
+<tr>
+ <td>Your Upline:</td>
+ <td>N/A (n/a)</td>
+</tr>
+
+
+<div class="form-group">
+	<div class="form-field">
+	    <input type=checkbox name=agree value=1  > I agree with Terms and conditions
+</div>
+	</div>
+<input type=submit value="Register" class="btn btn-primary mt-3 d-block w-100">
+<span class="gaps"></span>
+					
+</form>
+
+
+
+ <!-- registeration form end -->
+                                 </br>                    
+                                <small class="text-muted">Already have an account? <a href="login.html" class="link-primary text-decoration-none">Sign in here</a></small>
+                            </div>
+                            
+                      
+                            
+                             
+   
+      <center>
+                       <div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="../translate.google.com/translate_a/elementa0d8.js?cb=googleTranslateElementInit"></script>
+
+                        </center>
+   
+    
+
+                            
+                            
+                        </div>
+                    </div>                
+               
+            </div>
+        </div>
+    </section>
+    <!-- section content end -->
+    </main>
+    <!-- javascript -->
+    <script src="js/vendors/bootstrap.bundle.min.js"></script>
+    <script src="js/vendors/vanilla-marquee.min.js"></script>
+    <script src="js/utilities.min.js"></script>
+    <script src="js/config-theme.js"></script>
+</body>
+
+
+</html>
